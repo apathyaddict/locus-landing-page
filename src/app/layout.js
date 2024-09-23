@@ -1,0 +1,28 @@
+import { Toaster } from "@/components/ui/toaster";
+import { cn } from "@/lib/utils";
+import { Quicksand } from "next/font/google";
+
+import NavBar from "./components/navbar";
+import "./globals.css";
+
+const quicksand = Quicksand({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "LOCVM",
+  description: "LOCVMs at the click of a button",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <div className={cn(" antialiased", quicksand.className)}>
+          <NavBar />
+          <main>{children}</main>
+
+          <Toaster />
+        </div>
+      </body>
+    </html>
+  );
+}
