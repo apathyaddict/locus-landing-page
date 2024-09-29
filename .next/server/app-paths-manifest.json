@@ -1,5 +1,9 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/faq/page": "app/faq/page.js"
+  "/faq/page": "app/faq/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/policy/page": "app/policy/page.js",
+  "/join/page": "app/join/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
