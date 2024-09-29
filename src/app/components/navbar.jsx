@@ -31,6 +31,19 @@ const NavBar = () => {
               contact
             </li>
           </Link>
+          <Link
+            href={`/faq`}
+            className={buttonVariants({
+              variant: "link",
+              size: "default",
+            })}>
+            <li
+              className={`cursor-pointer ${
+                pathname === "/faq" ? "font-bold" : "hover:font-bold"
+              }`}>
+              FAQ
+            </li>
+          </Link>
 
           <Link href={`/join`}>
             <Button variant="default" size="default" className="px-6">
