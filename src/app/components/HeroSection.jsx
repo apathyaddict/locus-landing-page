@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="font-extrabold text-teal-500">V</span>
               <span className="font-extrabold text-blue-600-500">M</span>
             </span>
-            , your struggles are over. Book your next locum{" "}
+            , your staffing struggles are over. Book your next locum{" "}
             <Highlight className="text-slate-800 ">
               easily, safely, and with confidence.
             </Highlight>

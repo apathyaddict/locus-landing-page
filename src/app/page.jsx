@@ -16,8 +16,9 @@ export default function Home() {
         <Features className="bg-transparent" />
 
         <Info />
-        <RoadMap />
+
         <HowItWorks />
+        <RoadMap />
       </section>
       <Footer />
     </MaxWidthWrapper>
