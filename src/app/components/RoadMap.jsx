@@ -40,19 +40,19 @@ const RoadMap = () => {
           <CircleChevronRight className="text-zinc-500 h-6 w-6 mr-4 hidden sm:block" />
 
           {/* Phase 2 */}
-          <div className="flex flex-col items-start relative z-10">
+          {/* <div className="flex flex-col items-start relative z-10">
             <span className="font-medium text-teal-500">Phase 2:</span>
             <p className="sm:text-2xl text-lg font-semibold">
               Online Credentials
             </p>
-          </div>
+          </div> */}
 
           {/* Chevron */}
           <CircleChevronRight className="text-zinc-500 h-6 w-6 hidden sm:block mr-4 " />
 
           {/* Phase 3 */}
           <div className="flex flex-col items-start relative z-10">
-            <span className="font-medium text-teal-500">Phase 3:</span>
+            <span className="font-medium text-teal-500">Phase 2:</span>
             <p className="sm:text-2xl text-lg font-semibold">
               Canada-wide locums
             </p>
@@ -63,7 +63,7 @@ const RoadMap = () => {
 
           {/* Phase 4 */}
           <div className="flex flex-col items-start relative z-10">
-            <span className="font-medium text-teal-500">Phase 4:</span>
+            <span className="font-medium text-teal-500">Phase 3:</span>
             <p className="sm:text-2xl text-lg font-semibold">
               Other Medical Professions
             </p>

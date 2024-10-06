@@ -16,13 +16,13 @@ const features = [
   {
     name: "Verified profiles",
     description:
-      "Ensure healthcare professionals have validated profiles for both locum and permanent positions.",
+      "Ensure healthcare professionals have validated profiles before posting a locum or applying for a locum.",
     icon: Fingerprint,
   },
   {
     name: "In App communication",
     description:
-      "Confidential and secure channels for discussing details and scheduling between professionals and facilities.",
+      "Confidential and secure channels for discussing details and scheduling between locum professionals and permanent physicians.",
     icon: Lock,
   },
   {
@@ -34,7 +34,7 @@ const features = [
   {
     name: "Post and manage locum requests",
     description:
-      "Easy-to-use tools for healthcare facilities to post and manage locum requests with minimal effort.",
+      "Easy-to-use tools for physicians and healthcare facilities to post and manage locum requests with minimal effort.",
     icon: RefreshCw,
   },
   {
@@ -65,9 +65,9 @@ export default function Features() {
                 Finally. A Locum Management Platform
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-500 dark:text-gray-300">
-                Our platform offers robust tools for professionals and
-                healthcare facilities to seamlessly manage locum and permanent
-                staffing needs.
+                Our platform offers robust tools for permanent physicians and
+                healthcare facilities seeking temporary coverage to seamlessly
+                manage locum staffing needs.
               </p>
             </div>
           }>
