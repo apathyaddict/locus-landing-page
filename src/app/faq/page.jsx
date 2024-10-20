@@ -111,7 +111,7 @@ const paymentsFAQs = [
 const FAQPage = () => {
   return (
     <>
-      <MaxWidthWrapper className="">
+      <MaxWidthWrapper>
         <div className="mx-auto max-w-2xl mt-20 text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-slate-700 sm:text-4xl">
             Frequently Asked Questions
@@ -119,18 +119,19 @@ const FAQPage = () => {
         </div>
 
         {/* General FAQ Section */}
-        <div className="my-10 flex flex-col items-center mb-10">
+        <div className="my-10 flex flex-col items-center">
           <h2 className="text-2xl font-bold tracking-tight text-slate-700 sm:text-xl mb-4 bg-gray-100 rounded-lg py-4 px-10">
             FAQ: General
           </h2>
-          <div className="w-full sm:w-[70%] lg:w-[70%]">
+          <div className="w-full sm:w-[70%] lg:w-[80%]">
             <Accordion type="single" collapsible>
               {generalFAQs.map((faq, index) => (
                 <AccordionItem value={`general-item-${index}`} key={index}>
-                  <AccordionTrigger className="text-slate-700 font-bold text-lg">
-                    {faq.question}
+                  <AccordionTrigger className="flex justify-between items-center w-full text-slate-700 font-bold text-lg p-4">
+                    <span className="flex-1 text-left">{faq.question}</span>
+                    <span className="ml-4"></span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-base leading-8 text-gray-600">
+                  <AccordionContent className="text-base leading-8 text-gray-600 px-4">
                     <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>
@@ -144,14 +145,15 @@ const FAQPage = () => {
           <h2 className="text-2xl font-bold tracking-tight text-slate-700 sm:text-xl mb-4 bg-gray-100 rounded-lg py-4 px-10">
             FAQ: Payments & Deposits
           </h2>
-          <div className="w-full sm:w-[70%] lg:w-[70%]">
+          <div className="w-full sm:w-[70%] lg:w-[80%]">
             <Accordion type="single" collapsible>
               {paymentsFAQs.map((faq, index) => (
                 <AccordionItem value={`payments-item-${index}`} key={index}>
-                  <AccordionTrigger className="text-slate-700 font-bold text-lg">
-                    {faq.question}
+                  <AccordionTrigger className="flex justify-between items-center w-full text-slate-700 font-bold text-lg p-4">
+                    <span className="flex-1 text-left">{faq.question}</span>
+                    <span className="ml-4"></span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-base leading-8 text-gray-600">
+                  <AccordionContent className="text-base leading-8 text-gray-600 px-4">
                     <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>
@@ -159,6 +161,7 @@ const FAQPage = () => {
             </Accordion>
           </div>
         </div>
+
         <div className="mt-20">
           <Footer />
         </div>

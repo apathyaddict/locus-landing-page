@@ -8,8 +8,8 @@ export function cn(...inputs) {
 export function constructMetadata({
   title = "LOCVM",
   description = "Matching locums for your practice",
-  image = "thumbnail.png",
-  icons = "favicon.ico",
+  image = "/images/thumbnail.png",
+  icons = "/public/favicon.ico",
   noIndex = false,
 } = {}) {
   return {
