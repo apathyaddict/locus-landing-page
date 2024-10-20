@@ -11,7 +11,7 @@ export function constructMetadata({
   image = "thumbnail.png",
   icons = "favicon.ico",
   noIndex = false,
-}) {
+} = {}) {
   return {
     title,
     description,

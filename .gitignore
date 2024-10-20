@@ -12,6 +12,9 @@
 # next.js
 /.next/
 /out/
+.next
+.next/cache
+.pack.gz
 
 # production
 /build
