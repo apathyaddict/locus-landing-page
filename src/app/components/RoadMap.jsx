@@ -17,7 +17,7 @@ const RoadMap = () => {
 
       <div className="flex flex-col items-center ">
         <Image
-          src="/images/map.jpg"
+          src="images/map.jpg"
           alt="Map"
           height={720}
           width={1400}

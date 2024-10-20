@@ -94,14 +94,6 @@ const Info = () => {
                   </BackgroundGradient>
                 </ul>
               </div>
-
-              {/* <div className="w-[740px] h-[400px] flex justify-center pl-8 pt-20">
-                <BrowserFrame
-                  imageSrc="/images/profile-ex.png"
-                  altText="Profile example"
-                  className="object-contain"
-                />
-              </div> */}
             </div>
           </div>
         </div>

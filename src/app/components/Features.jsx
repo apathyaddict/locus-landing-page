@@ -74,7 +74,7 @@ export default function Features() {
           {/* Image with Scroll Effect */}
           <div className=" w-full z-10">
             <Image
-              src="/images/upcoming.png"
+              src="images/upcoming.png"
               alt="Platform screenshot"
               height={720}
               width={1400}
