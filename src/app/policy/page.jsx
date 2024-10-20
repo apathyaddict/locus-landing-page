@@ -118,8 +118,8 @@ const termsData = {
       content: `
           For questions or concerns about this Agreement, you can reach us at:
         
-          Email: [Insert Email]
-          Phone: [Insert Phone]
+          Email: support@locvm.ca
+          
         `,
     },
   ],

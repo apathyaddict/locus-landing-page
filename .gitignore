@@ -12,9 +12,17 @@
 # next.js
 /.next/
 /out/
+<<<<<<< HEAD
 .next
 .next/cache
 .pack.gz
+=======
+.pack
+.pack.gz
+.next/
+.next/cache/
+.next
+>>>>>>> dev
 
 # production
 /build

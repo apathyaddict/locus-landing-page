@@ -13,12 +13,13 @@ const generalFAQs = [
   {
     question: "What is LOCVM?",
     answer:
-      "LOCVM is a platform designed to connect permanent physicians with locum professionals for short-term coverage. It offers flexibility for permanent physicians to take time off while enabling locum professionals to find opportunities.",
+      "LOCVM is a platform designed to connect permanent physicians and locum professionals for short-term coverage. It offers flexibility for permanent physicians to take time off while enabling locum professionals to find opportunities.",
   },
   {
     question: "Who can use the platform?",
+
     answer:
-      "The platform is available to: Locum Professionals: Licensed physicians in Ontario seeking temporary placements. Permanent Physicians: Physicians looking for short-term locum professionals to cover their shifts. Healthcare Professionals: If you're a healthcare professional in another field, sign up for our mailing list to hear about future opportunities in your area of expertise.",
+      "The platform is available to:<br/><strong>Locum Professionals:</strong> Licensed physicians  seeking temporary placements.<br/><strong>Permanent Physicians:</strong> Physicians looking for short-term locum professionals to cover their shifts.<br/><strong>Healthcare Professionals:</strong> If you're a healthcare professional in another field, sign up for our mailing list to hear about future opportunities in your area of expertise.",
   },
   {
     question: "How does the platform work?",
@@ -81,8 +82,9 @@ const generalFAQs = [
 const paymentsFAQs = [
   {
     question: "How are payments processed?",
+
     answer:
-      "Payments can be handled either through the platform or directly by the permanent physician. Through the Platform: Locum professionals are paid automatically after their assignment if it’s less than a month, or monthly for longer assignments. Direct Payment by Physicians: If the physician chooses to handle payments directly, a flat fee based on the length of the assignment will apply.",
+      "Payments can be handled either through the platform or directly.<br/><ul><li><strong>Through the Platform:</strong> Locum professionals are paid automatically after their assignment if it’s less than a month, or monthly for longer assignments.</li><li><strong>Direct Payment by Physicians:</strong> If the physician chooses to handle payments directly, a flat fee based on the length of the assignment will apply.</li></ul>",
   },
   {
     question: "How much is the service fee?",
@@ -128,8 +130,8 @@ const FAQPage = () => {
                   <AccordionTrigger className="text-slate-700 font-bold text-lg">
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-lg leading-8 text-gray-600">
-                    {faq.answer}
+                  <AccordionContent className="text-base leading-8 text-gray-600">
+                    <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>
               ))}
@@ -149,8 +151,8 @@ const FAQPage = () => {
                   <AccordionTrigger className="text-slate-700 font-bold text-lg">
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-lg leading-8 text-gray-600">
-                    {faq.answer}
+                  <AccordionContent className="text-base leading-8 text-gray-600">
+                    <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>
               ))}
