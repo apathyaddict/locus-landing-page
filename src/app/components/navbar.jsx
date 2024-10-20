@@ -19,7 +19,7 @@ const NavBar = () => {
 
         <ul className="flex cursor-auto items-center justify-between gap-6 font-medium">
           <Link
-            href={`/about`}
+            href="mailto:support@locvm.ca"
             className={buttonVariants({
               variant: "link",
               size: "default",
@@ -28,9 +28,10 @@ const NavBar = () => {
               className={`cursor-pointer ${
                 pathname === "/about" ? "font-bold" : "hover:font-bold"
               }`}>
-              contact
+              Contact
             </li>
           </Link>
+
           <Link
             href={`/faq`}
             className={buttonVariants({

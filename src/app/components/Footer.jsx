@@ -28,7 +28,9 @@ const Footer = () => {
             </Link>
           </div>
           <div>
-            <Link href="#" className="hover:underline">
+            <Link
+              className="hover:underline me-4 md:me-6"
+              href="mailto:support@locvm.ca">
               Contact
             </Link>
           </div>
