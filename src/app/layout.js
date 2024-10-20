@@ -1,5 +1,5 @@
 import { Toaster } from "@/components/ui/toaster";
-import { cn } from "@/lib/utils";
+import { cn, constructMetadata } from "@/lib/utils";
 import { Quicksand } from "next/font/google";
 
 import NavBar from "./components/navbar";
@@ -7,10 +7,7 @@ import "./globals.css";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "LOCVM",
-  description: "LOCVMs at the click of a button",
-};
+export const metadata = constructMetadata();
 
 export default function RootLayout({ children }) {
   return (
