@@ -12,6 +12,13 @@ export const metadata = constructMetadata();
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {metadata.title && <title>{metadata.title}</title>}
+        {metadata.description && (
+          <meta name="description" content={metadata.description} />
+        )}
+        {metadata.icon && <link rel="icon" href={metadata.icon} />}
+      </head>
       <body>
         <div className={cn(" antialiased", quicksand.className)}>
           <NavBar />
