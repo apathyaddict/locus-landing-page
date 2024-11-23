@@ -37,7 +37,7 @@ const RoadMap = () => {
           </div>
 
           {/* Chevron */}
-          <CircleChevronRight className="text-zinc-500 h-6 w-6 mr-4 hidden sm:block" />
+          {/* <CircleChevronRight className="text-zinc-500 h-6 w-6 mr-4 hidden sm:block" /> */}
 
           {/* Phase 2 */}
           {/* <div className="flex flex-col items-start relative z-10">

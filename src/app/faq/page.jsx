@@ -89,7 +89,7 @@ const paymentsFAQs = [
   {
     question: "How much is the service fee?",
     answer:
-      "If Payment is Handled Through the Platform: The service fee is based on the length of the assignment. Short assignments have a 1% service fee, while longer assignments have a lower fee. There is also a payment handling fee based on charges from the integrated payment system. If Payment is Handled by the Physician: A flat service fee will be charged based on the length of the assignment, regardless of its duration.",
+      "If Payment is Handled Through the Platform:  The payment handling fee is based on charges from the integrated payment system. If Payment is Handled by the Physician: A flat service fee will be charged based on the length of the assignment, regardless of its duration.",
   },
   {
     question: "When do I get paid?",
