@@ -1,23 +1,19 @@
-import Video from "next-video";
-import Image from "next/image";
 import poster from "../../public/images/poster-for-video.png";
-import locumVideo from "../../videos/locvm-video.mp4";
 
 export default function VideoPage() {
   return (
-    <section className="relative flex justify-center align-middle mx-auto border   bg-gray-800 rounded-xl sm:w-[800px] p-4 mt-20 shadow-md">
-      <Video
-        src={locumVideo}
-        width="100%"
-        height="100%"
-        className="border-4 border-black rounded-xl ">
-        <Image
-          slot="poster"
-          src={poster}
-          placeholder="blur"
-          alt="Some peeps doing something awesome"
+    <section className="relative flex justify-center items-center mx-auto bg-gray-800 rounded-xl w-[90%] max-w-[900px] p-4 mt-20 shadow-md">
+      <video
+        className="w-full h-auto rounded-xl"
+        controls
+        preload="none"
+        poster="/images/poster-for-video.png">
+        <source
+          src="https://res.cloudinary.com/dc2qd4mzh/video/upload/v1732754636/LOCVM-landing%20page/xzzx6mdvuawrpiikunln.mp4"
+          type="video/mp4"
         />
-      </Video>
+        Your browser does not support the video tag.
+      </video>
     </section>
   );
 }

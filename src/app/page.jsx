@@ -13,7 +13,7 @@ export default function Home() {
     <MaxWidthWrapper className="bg-dot-black/[0.1]">
       <section className="h-full pb-56">
         <HeroSection className="bg-transparent" />
-        {/* <VideoPage /> */}
+        <VideoPage />
 
         <Features className="bg-transparent" />
 
