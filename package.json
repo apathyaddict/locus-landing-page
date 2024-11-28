@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -21,6 +21,7 @@
     "lucide-react": "^0.445.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.13",
+    "next-video": "^1.4.0",
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.13.0",

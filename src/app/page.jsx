@@ -1,3 +1,4 @@
+import VideoPage from "@/components/video";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 
@@ -12,6 +13,7 @@ export default function Home() {
     <MaxWidthWrapper className="bg-dot-black/[0.1]">
       <section className="h-full pb-56">
         <HeroSection className="bg-transparent" />
+        <VideoPage />
 
         <Features className="bg-transparent" />
 
