@@ -24,7 +24,7 @@ const HeroSection = () => {
               duration: 0.5,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className="text-4xl  sm:px-4 py-4  mt-4 sm:mt-12  md:text-4xl lg:text-5xl font-bold text-zinc-600 sm:max-w-4xl leading-loose lg:leading-snug text-center mx-auto ">
+            className="text-2xl sm:text-4xl  sm:px-4 py-4  mt-4 sm:mt-12  md:text-4xl lg:text-5xl font-bold text-zinc-600 sm:max-w-4xl leading-loose lg:leading-snug text-center mx-auto ">
             With{" "}
             <span className=" font-bold text-gray-800">
               LOC

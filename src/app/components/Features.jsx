@@ -53,7 +53,7 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="dark:bg-neutral-900 pt-64 sm:py-32">
+    <div className="dark:bg-neutral-900 pt-32 sm:py-12 pb-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <ContainerScroll
           titleComponent={
