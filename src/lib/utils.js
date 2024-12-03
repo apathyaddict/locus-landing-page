@@ -9,7 +9,7 @@ export function constructMetadata({
   title = "LOCVM",
   description = "Matching locums for your practice",
   image = "/public/images/thumbnail.png",
-  icon = "/favicon/favicon.ico",
+  icon = "favicon.ico",
   noIndex = false,
 } = {}) {
   return {

@@ -1,5 +1,6 @@
 "use client";
 import { Button, buttonVariants } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -9,12 +10,27 @@ const NavBar = () => {
   return (
     <div className="mx-auto  sm:flex max-w-7xl flex-col space-y-14">
       <header className="xl:px-12 text-gray-700 sticky top-3 z-20 mx-3 flex items-center justify-between rounded-xl bg-white px-[5%] py-5 shadow-lg">
-        <Link href="/">
-          <h1 className="text-xl font-bold text-gray-800">
+        <Link href="/" className="flex items-center  justify-center">
+          {/* <h1 className="text-xl font-bold text-gray-800">
             LOC
             <span className="font-extrabold text-teal-500">V</span>
             <span className="font-extrabold text-blue-600-500">M</span>
-          </h1>
+          </h1> */}
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            width={130}
+            height={130}
+            className="hidden sm:block" // Hidden on mobile, shown on larger screens
+          />
+          {/* Show the small logo for mobile */}
+          <Image
+            src="/images/logoSM.png"
+            alt="small logo"
+            width={30}
+            height={30}
+            className="block sm:hidden" // Visible on mobile, hidden on larger screens
+          />
         </Link>
 
         <ul className="flex cursor-auto items-center justify-between gap-6 font-medium">

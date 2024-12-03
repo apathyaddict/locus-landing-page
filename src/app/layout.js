@@ -17,7 +17,8 @@ export default function RootLayout({ children }) {
         {metadata.description && (
           <meta name="description" content={metadata.description} />
         )}
-        {metadata.icon && <link rel="icon" href={metadata.icon} />}
+        <link rel="icon" href="/favicon/favicon.ico" />
+        {/* {metadata.icon && <link rel="icon" href={metadata.icon} />} */}
       </head>
       <body>
         <div className={cn(" antialiased", quicksand.className)}>
